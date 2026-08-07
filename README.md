@@ -1,5 +1,6 @@
 Instructions:
-Download the .zip file and unzip it, then open a terminal window with the unzipped folder.
+Download the .zip file and unzip it, open the folder and unzip the file, then open a terminal window with the unzipped folder.
+Make sure you have node installed, if not, then run /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 Run "npm install", after that finishes, run "npm run build".
 If you want in .dmg file for easy access, run "npm run package" to build the dmg, the file is
 in a folder called release, you can open it by running the command "open release/" then open
